@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct MatchMate_ShaddiApp: App {
+    let persistenceController = PersistenceController.shared
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }

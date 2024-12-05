@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		82C9DFFCCAC54AC09D2739B7 /* Pods_MatchMate_Shaddi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9E34C6A7C639044CBA69C3 /* Pods_MatchMate_Shaddi.framework */; };
-		8DA8507784BED1E20A3D065C /* Pods_MatchMate_Shaddi_MatchMate_ShaddiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AFACC830C6C2C0A4C17A47 /* Pods_MatchMate_Shaddi_MatchMate_ShaddiUITests.framework */; };
-		F5376C945C19E030CA4E3E42 /* Pods_MatchMate_ShaddiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1C4B489960B6556D8C7C50 /* Pods_MatchMate_ShaddiTests.framework */; };
+		656B25CA7DFD1AED15253F94 /* Pods_MatchMate_Shaddi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32563F0BF0B7410203F91947 /* Pods_MatchMate_Shaddi.framework */; };
+		ED0FAFF52D005D2B005820E5 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED0FAFF42D005D2B005820E5 /* SDWebImage.framework */; };
+		ED0FAFF72D005D2F005820E5 /* SDWebImageSwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED0FAFF62D005D2F005820E5 /* SDWebImageSwiftUI.framework */; };
+		FD4B89C25082BF1407B051A5 /* Pods_MatchMate_Shaddi_MatchMate_ShaddiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD772EAD847EF45F1495934 /* Pods_MatchMate_Shaddi_MatchMate_ShaddiUITests.framework */; };
+		FEDC244769858D64BFD62C75 /* Pods_MatchMate_ShaddiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B314EF26A9EBDDDA1B5C410 /* Pods_MatchMate_ShaddiTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,39 +32,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		18AFACC830C6C2C0A4C17A47 /* Pods_MatchMate_Shaddi_MatchMate_ShaddiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MatchMate_Shaddi_MatchMate_ShaddiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E6D7506D627D0D04F49B574 /* Pods-MatchMate-Shaddi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MatchMate-Shaddi.debug.xcconfig"; path = "Target Support Files/Pods-MatchMate-Shaddi/Pods-MatchMate-Shaddi.debug.xcconfig"; sourceTree = "<group>"; };
-		2B1C4B489960B6556D8C7C50 /* Pods_MatchMate_ShaddiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MatchMate_ShaddiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		361F440AA1BDD22DDB6BBF5E /* Pods-MatchMate-ShaddiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MatchMate-ShaddiTests.debug.xcconfig"; path = "Target Support Files/Pods-MatchMate-ShaddiTests/Pods-MatchMate-ShaddiTests.debug.xcconfig"; sourceTree = "<group>"; };
-		4B5B1EAA34522B6249559334 /* Pods-MatchMate-Shaddi-MatchMate-ShaddiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MatchMate-Shaddi-MatchMate-ShaddiUITests.debug.xcconfig"; path = "Target Support Files/Pods-MatchMate-Shaddi-MatchMate-ShaddiUITests/Pods-MatchMate-Shaddi-MatchMate-ShaddiUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		9C6279B017F0BAA36C1927ED /* Pods-MatchMate-ShaddiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MatchMate-ShaddiTests.release.xcconfig"; path = "Target Support Files/Pods-MatchMate-ShaddiTests/Pods-MatchMate-ShaddiTests.release.xcconfig"; sourceTree = "<group>"; };
-		AC9E34C6A7C639044CBA69C3 /* Pods_MatchMate_Shaddi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MatchMate_Shaddi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D6988CB480DAA8DC43C71DEF /* Pods-MatchMate-Shaddi-MatchMate-ShaddiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MatchMate-Shaddi-MatchMate-ShaddiUITests.release.xcconfig"; path = "Target Support Files/Pods-MatchMate-Shaddi-MatchMate-ShaddiUITests/Pods-MatchMate-Shaddi-MatchMate-ShaddiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0918821FC97F75329F7FC3BB /* Pods-MatchMate-Shaddi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MatchMate-Shaddi.release.xcconfig"; path = "Target Support Files/Pods-MatchMate-Shaddi/Pods-MatchMate-Shaddi.release.xcconfig"; sourceTree = "<group>"; };
+		1182E393C06E7F94589A0720 /* Pods-MatchMate-Shaddi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MatchMate-Shaddi.debug.xcconfig"; path = "Target Support Files/Pods-MatchMate-Shaddi/Pods-MatchMate-Shaddi.debug.xcconfig"; sourceTree = "<group>"; };
+		32563F0BF0B7410203F91947 /* Pods_MatchMate_Shaddi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MatchMate_Shaddi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B314EF26A9EBDDDA1B5C410 /* Pods_MatchMate_ShaddiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MatchMate_ShaddiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8568062DBE475880F3FBF9B /* Pods-MatchMate-Shaddi-MatchMate-ShaddiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MatchMate-Shaddi-MatchMate-ShaddiUITests.release.xcconfig"; path = "Target Support Files/Pods-MatchMate-Shaddi-MatchMate-ShaddiUITests/Pods-MatchMate-Shaddi-MatchMate-ShaddiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B8DEC4247AE89ED51F60A85D /* Pods-MatchMate-ShaddiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MatchMate-ShaddiTests.release.xcconfig"; path = "Target Support Files/Pods-MatchMate-ShaddiTests/Pods-MatchMate-ShaddiTests.release.xcconfig"; sourceTree = "<group>"; };
+		CFDD7D9D7C5D63BBF42D9C51 /* Pods-MatchMate-ShaddiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MatchMate-ShaddiTests.debug.xcconfig"; path = "Target Support Files/Pods-MatchMate-ShaddiTests/Pods-MatchMate-ShaddiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E1C663B264CB38FA22999404 /* Pods-MatchMate-Shaddi-MatchMate-ShaddiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MatchMate-Shaddi-MatchMate-ShaddiUITests.debug.xcconfig"; path = "Target Support Files/Pods-MatchMate-Shaddi-MatchMate-ShaddiUITests/Pods-MatchMate-Shaddi-MatchMate-ShaddiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED0FAFF42D005D2B005820E5 /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED0FAFF62D005D2F005820E5 /* SDWebImageSwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDWebImageSwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED3F95A92D0034A600EC39BE /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDDFB49B2CFF1E1300BF5C5E /* MatchMate-Shaddi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MatchMate-Shaddi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDDFB4AB2CFF1E1400BF5C5E /* MatchMate-ShaddiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MatchMate-ShaddiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDDFB4B52CFF1E1400BF5C5E /* MatchMate-ShaddiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MatchMate-ShaddiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1A0C8048CF7D78C1BA64820 /* Pods-MatchMate-Shaddi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MatchMate-Shaddi.release.xcconfig"; path = "Target Support Files/Pods-MatchMate-Shaddi/Pods-MatchMate-Shaddi.release.xcconfig"; sourceTree = "<group>"; };
+		FAD772EAD847EF45F1495934 /* Pods_MatchMate_Shaddi_MatchMate_ShaddiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MatchMate_Shaddi_MatchMate_ShaddiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		EDDFB49D2CFF1E1300BF5C5E /* MatchMate-Shaddi */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = "MatchMate-Shaddi";
 			sourceTree = "<group>";
 		};
 		EDDFB4AE2CFF1E1400BF5C5E /* MatchMate-ShaddiTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = "MatchMate-ShaddiTests";
 			sourceTree = "<group>";
 		};
 		EDDFB4B82CFF1E1400BF5C5E /* MatchMate-ShaddiUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = "MatchMate-ShaddiUITests";
 			sourceTree = "<group>";
 		};
@@ -73,7 +72,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82C9DFFCCAC54AC09D2739B7 /* Pods_MatchMate_Shaddi.framework in Frameworks */,
+				ED0FAFF72D005D2F005820E5 /* SDWebImageSwiftUI.framework in Frameworks */,
+				ED0FAFF52D005D2B005820E5 /* SDWebImage.framework in Frameworks */,
+				656B25CA7DFD1AED15253F94 /* Pods_MatchMate_Shaddi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5376C945C19E030CA4E3E42 /* Pods_MatchMate_ShaddiTests.framework in Frameworks */,
+				FEDC244769858D64BFD62C75 /* Pods_MatchMate_ShaddiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DA8507784BED1E20A3D065C /* Pods_MatchMate_Shaddi_MatchMate_ShaddiUITests.framework in Frameworks */,
+				FD4B89C25082BF1407B051A5 /* Pods_MatchMate_Shaddi_MatchMate_ShaddiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,23 +100,25 @@
 		483C25644EF14311DFF04C4E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1E6D7506D627D0D04F49B574 /* Pods-MatchMate-Shaddi.debug.xcconfig */,
-				F1A0C8048CF7D78C1BA64820 /* Pods-MatchMate-Shaddi.release.xcconfig */,
-				4B5B1EAA34522B6249559334 /* Pods-MatchMate-Shaddi-MatchMate-ShaddiUITests.debug.xcconfig */,
-				D6988CB480DAA8DC43C71DEF /* Pods-MatchMate-Shaddi-MatchMate-ShaddiUITests.release.xcconfig */,
-				361F440AA1BDD22DDB6BBF5E /* Pods-MatchMate-ShaddiTests.debug.xcconfig */,
-				9C6279B017F0BAA36C1927ED /* Pods-MatchMate-ShaddiTests.release.xcconfig */,
+				1182E393C06E7F94589A0720 /* Pods-MatchMate-Shaddi.debug.xcconfig */,
+				0918821FC97F75329F7FC3BB /* Pods-MatchMate-Shaddi.release.xcconfig */,
+				E1C663B264CB38FA22999404 /* Pods-MatchMate-Shaddi-MatchMate-ShaddiUITests.debug.xcconfig */,
+				A8568062DBE475880F3FBF9B /* Pods-MatchMate-Shaddi-MatchMate-ShaddiUITests.release.xcconfig */,
+				CFDD7D9D7C5D63BBF42D9C51 /* Pods-MatchMate-ShaddiTests.debug.xcconfig */,
+				B8DEC4247AE89ED51F60A85D /* Pods-MatchMate-ShaddiTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		DB7D6DDB9B289326C9E01742 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AC9E34C6A7C639044CBA69C3 /* Pods_MatchMate_Shaddi.framework */,
-				18AFACC830C6C2C0A4C17A47 /* Pods_MatchMate_Shaddi_MatchMate_ShaddiUITests.framework */,
-				2B1C4B489960B6556D8C7C50 /* Pods_MatchMate_ShaddiTests.framework */,
+				ED0FAFF62D005D2F005820E5 /* SDWebImageSwiftUI.framework */,
+				ED0FAFF42D005D2B005820E5 /* SDWebImage.framework */,
+				ED3F95A92D0034A600EC39BE /* Alamofire.framework */,
+				32563F0BF0B7410203F91947 /* Pods_MatchMate_Shaddi.framework */,
+				FAD772EAD847EF45F1495934 /* Pods_MatchMate_Shaddi_MatchMate_ShaddiUITests.framework */,
+				5B314EF26A9EBDDDA1B5C410 /* Pods_MatchMate_ShaddiTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -149,11 +152,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDDFB4BF2CFF1E1400BF5C5E /* Build configuration list for PBXNativeTarget "MatchMate-Shaddi" */;
 			buildPhases = (
-				AD4131691258C81C214B0865 /* [CP] Check Pods Manifest.lock */,
+				FE65F7D8617038BE3948E52F /* [CP] Check Pods Manifest.lock */,
 				EDDFB4972CFF1E1300BF5C5E /* Sources */,
 				EDDFB4982CFF1E1300BF5C5E /* Frameworks */,
 				EDDFB4992CFF1E1300BF5C5E /* Resources */,
-				D868D449B11E8738359B78BE /* [CP] Embed Pods Frameworks */,
+				7DF8178BD50FCCDECEE47FD1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -171,7 +174,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDDFB4C22CFF1E1400BF5C5E /* Build configuration list for PBXNativeTarget "MatchMate-ShaddiTests" */;
 			buildPhases = (
-				C144A9BE00F6AD3393BC59CD /* [CP] Check Pods Manifest.lock */,
+				660EA7EB6DF1C28D679BAF3D /* [CP] Check Pods Manifest.lock */,
 				EDDFB4A72CFF1E1400BF5C5E /* Sources */,
 				EDDFB4A82CFF1E1400BF5C5E /* Frameworks */,
 				EDDFB4A92CFF1E1400BF5C5E /* Resources */,
@@ -193,11 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDDFB4C52CFF1E1400BF5C5E /* Build configuration list for PBXNativeTarget "MatchMate-ShaddiUITests" */;
 			buildPhases = (
-				B119B35D916C3F33C41E56BA /* [CP] Check Pods Manifest.lock */,
+				DAE19741AC0CD132A95CEBA1 /* [CP] Check Pods Manifest.lock */,
 				EDDFB4B12CFF1E1400BF5C5E /* Sources */,
 				EDDFB4B22CFF1E1400BF5C5E /* Frameworks */,
 				EDDFB4B32CFF1E1400BF5C5E /* Resources */,
-				E8A2D3D14384619EFE22A238 /* [CP] Embed Pods Frameworks */,
+				207B18357ABCD1CB47E4ECCF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -281,51 +284,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		AD4131691258C81C214B0865 /* [CP] Check Pods Manifest.lock */ = {
+		207B18357ABCD1CB47E4ECCF /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MatchMate-Shaddi-MatchMate-ShaddiUITests/Pods-MatchMate-Shaddi-MatchMate-ShaddiUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MatchMate-Shaddi-checkManifestLockResult.txt",
+				"${PODS_ROOT}/Target Support Files/Pods-MatchMate-Shaddi-MatchMate-ShaddiUITests/Pods-MatchMate-Shaddi-MatchMate-ShaddiUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MatchMate-Shaddi-MatchMate-ShaddiUITests/Pods-MatchMate-Shaddi-MatchMate-ShaddiUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B119B35D916C3F33C41E56BA /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MatchMate-Shaddi-MatchMate-ShaddiUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C144A9BE00F6AD3393BC59CD /* [CP] Check Pods Manifest.lock */ = {
+		660EA7EB6DF1C28D679BAF3D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -347,7 +323,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D868D449B11E8738359B78BE /* [CP] Embed Pods Frameworks */ = {
+		7DF8178BD50FCCDECEE47FD1 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -364,21 +340,48 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MatchMate-Shaddi/Pods-MatchMate-Shaddi-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E8A2D3D14384619EFE22A238 /* [CP] Embed Pods Frameworks */ = {
+		DAE19741AC0CD132A95CEBA1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MatchMate-Shaddi-MatchMate-ShaddiUITests/Pods-MatchMate-Shaddi-MatchMate-ShaddiUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MatchMate-Shaddi-MatchMate-ShaddiUITests/Pods-MatchMate-Shaddi-MatchMate-ShaddiUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MatchMate-Shaddi-MatchMate-ShaddiUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MatchMate-Shaddi-MatchMate-ShaddiUITests/Pods-MatchMate-Shaddi-MatchMate-ShaddiUITests-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE65F7D8617038BE3948E52F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MatchMate-Shaddi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -458,7 +461,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -473,7 +476,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -521,7 +524,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -530,7 +533,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -542,10 +545,11 @@
 		};
 		EDDFB4C02CFF1E1400BF5C5E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E6D7506D627D0D04F49B574 /* Pods-MatchMate-Shaddi.debug.xcconfig */;
+			baseConfigurationReference = 1182E393C06E7F94589A0720 /* Pods-MatchMate-Shaddi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MatchMate-Shaddi/Preview Content\"";
@@ -559,11 +563,13 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(PROJECT_DIR)/Pods",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "gurpreetProjects.MatchMate-Shaddi";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -572,10 +578,11 @@
 		};
 		EDDFB4C12CFF1E1400BF5C5E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1A0C8048CF7D78C1BA64820 /* Pods-MatchMate-Shaddi.release.xcconfig */;
+			baseConfigurationReference = 0918821FC97F75329F7FC3BB /* Pods-MatchMate-Shaddi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MatchMate-Shaddi/Preview Content\"";
@@ -589,11 +596,13 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(PROJECT_DIR)/Pods",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "gurpreetProjects.MatchMate-Shaddi";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -602,7 +611,7 @@
 		};
 		EDDFB4C32CFF1E1400BF5C5E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 361F440AA1BDD22DDB6BBF5E /* Pods-MatchMate-ShaddiTests.debug.xcconfig */;
+			baseConfigurationReference = CFDD7D9D7C5D63BBF42D9C51 /* Pods-MatchMate-ShaddiTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -622,7 +631,7 @@
 		};
 		EDDFB4C42CFF1E1400BF5C5E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C6279B017F0BAA36C1927ED /* Pods-MatchMate-ShaddiTests.release.xcconfig */;
+			baseConfigurationReference = B8DEC4247AE89ED51F60A85D /* Pods-MatchMate-ShaddiTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -642,7 +651,7 @@
 		};
 		EDDFB4C62CFF1E1400BF5C5E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B5B1EAA34522B6249559334 /* Pods-MatchMate-Shaddi-MatchMate-ShaddiUITests.debug.xcconfig */;
+			baseConfigurationReference = E1C663B264CB38FA22999404 /* Pods-MatchMate-Shaddi-MatchMate-ShaddiUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -660,7 +669,7 @@
 		};
 		EDDFB4C72CFF1E1400BF5C5E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D6988CB480DAA8DC43C71DEF /* Pods-MatchMate-Shaddi-MatchMate-ShaddiUITests.release.xcconfig */;
+			baseConfigurationReference = A8568062DBE475880F3FBF9B /* Pods-MatchMate-Shaddi-MatchMate-ShaddiUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
